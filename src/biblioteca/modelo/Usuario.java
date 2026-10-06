@@ -5,7 +5,8 @@ public class Usuario {
     private String numeroIndentificacion;
 
     public Usuario(String nombre, String numeroIndentificacion){
-
+        this.nombre = nombre;
+        this.numeroIndentificacion = numeroIndentificacion;
     }
 
     public String getNombre() {
