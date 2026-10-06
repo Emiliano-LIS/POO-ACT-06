@@ -283,40 +283,4 @@ int intentos = 3;
 | Javadoc | Herramienta que genera documentación HTML desde comentarios `/** */`. |
 | `//` vs `/** */` | El primero es una nota para quien lee el código; el segundo documenta la API para quien la usa. |
 
----
 
-## 🧪 Mini-reto para practicar
-
-Intenta resolverlo **antes** de buscar la respuesta. Si te atoras, usa las pistas.
-
-**Situación:** tienes la clase `Alumno` y quieres que esté en el paquete `mx.uv.escuela.modelo`, y una clase `Main` en `mx.uv.escuela`.
-
-1. ¿En qué rutas de carpetas deben estar los dos archivos `.java`?
-2. ¿Qué líneas `package` e `import` necesita `Main` para poder usar `Alumno`?
-3. ¿Qué comando usarías para ejecutarlo desde la raíz del proyecto?
-4. Escribe el Javadoc de un método `double calcularPromedio(int[] calificaciones)`, incluyendo qué pasa si el arreglo está vacío.
-
-<details>
-<summary>💡 Pista 1</summary>
-
-Convierte cada punto del paquete en una carpeta.
-
-</details>
-
-<details>
-<summary>💡 Pista 3</summary>
-
-Para ejecutar se usa el nombre completo de la clase con `main`, no la ruta del archivo.
-
-</details>
-
-<details>
-<summary>💡 Pista 4</summary>
-
-Piensa en `@param`, `@return` y `@throws`. ¿Qué debería hacer el método con un arreglo vacío? Esa es una decisión de diseño que debes documentar.
-
-</details>
-
----
-
-*Cuando tengas tu solución, mándamela y te la reviso: no solo si funciona, sino cómo la pensaste.* 🚀
