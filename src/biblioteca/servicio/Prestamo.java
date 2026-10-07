@@ -21,7 +21,7 @@ public class Prestamo {
             ejemplar.setEstado(EstadoEjemplar.prestado);
             return ("El libro esta siendo prestado a " + usuario.getNombre());
         } else {
-            return ("El titulo no está disponible");
+            return ("El titulo " ejemplar.getTitulo()
         }
     }
 

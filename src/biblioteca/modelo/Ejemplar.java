@@ -5,7 +5,8 @@ public class Ejemplar {
     private EstadoEjemplar estado;
     private Libro libro;
 
-    public Ejemplar(String codigo, EstadoEjemplar estado, Libro libro){
+    public Ejemplar(String titulo, String autor, String codigo, EstadoEjemplar estado, Libro libro){
+        super(titulo, autor);
         this.codigo = codigo;
         this.estado = estado;
         this.libro = libro;
